@@ -31,6 +31,13 @@ Spring Boot를 이용한 타임리프 기본 기능 학습
 3. 스프링 통합 지원
     - 타임리프는 스프링과 자연스럽게 통합되고, 스프링의 다양한 기능을 편리하게 사용할 수 있게 지원한다.
 
+## Java 8 날짜
+
+1. 타임리프에서 자바8 날짜인 `LocalDate` , `LocalDateTime` , `Instant`를 사용하려면 추가 라이브러리가 필요하다. 스프링 부트 타임리프를 사용하면 해당 라이브러리가 자동으로 추가되고
+   통합된다.
+    - 타임리프 자바8 날짜 지원 라이브러리: `thymeleaf-extras-java8time`(스프링 부트 사용시 자동으로 추가되어 있음.)
+    - Java 8 날짜용 유틸리티 객체: `#temporals`
+
 ## 참고 링크
 
 1. 타임리프 공식 사이트: [https://www.thymeleaf.org/](https://www.thymeleaf.org/)
@@ -38,5 +45,7 @@ Spring Boot를 이용한 타임리프 기본 기능 학습
    기능: [https://www.thymeleaf.org/doc/tutorials/3.0/usingthymeleaf.html](https://www.thymeleaf.org/doc/tutorials/3.0/usingthymeleaf.html)
 3. 타임리프 메뉴얼 - 스프링
    통합 : [https://www.thymeleaf.org/doc/tutorials/3.0/thymeleafspring.html](https://www.thymeleaf.org/doc/tutorials/3.0/thymeleafspring.html)
-
-
+4. 타임리프 유틸리티
+   객체: [https://www.thymeleaf.org/doc/tutorials/3.0/usingthymeleaf.html#expression-utilityobjects](https://www.thymeleaf.org/doc/tutorials/3.0/usingthymeleaf.html#expression-utilityobjects)
+5. 타임리프 유틸리티 객체
+   예시: [https://www.thymeleaf.org/doc/tutorials/3.0/usingthymeleaf.html#appendix-b-expressionutility-objects](https://www.thymeleaf.org/doc/tutorials/3.0/usingthymeleaf.html#appendix-b-expressionutility-objects)
